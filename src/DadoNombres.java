@@ -7,6 +7,7 @@ public class DadoNombres {
     //cambio1
     public static void dameUnNombre(){
         
+        System.out.println("El numero es: ");
         num= (int) (Math.random()*6);
         System.out.print(num);
         System.out.print(Nombres[num]);
