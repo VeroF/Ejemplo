@@ -4,7 +4,9 @@ public class DadoNombres {
     public static void main(String[] args) {
         dameUnNombre();
     }
-    //cambio1
+    /**
+     * Método que da un nombre y no se que mas xDDDD Eso es un arrayyyyy o.o
+     */
     public static void dameUnNombre(){
         
         System.out.println("El numero es: ");
