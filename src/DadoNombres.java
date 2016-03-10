@@ -15,4 +15,22 @@ public class DadoNombres {
         System.out.print(num);
         System.out.print(Nombres[num]);
     }
+    
+    
+    public static boolean esPrimo(int num){
+        
+        int cont = 1;
+        boolean ok;
+        if (num == 0 || num == 1)
+            ok = false;
+        else if (num == 2)
+            ok = true;
+        else {
+            do {
+                cont++;
+                ok = num % cont != 0;
+            } while (ok && cont < num / 2);
+        }
+        return ok;
+    }
 }
