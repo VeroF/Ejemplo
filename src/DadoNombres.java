@@ -6,8 +6,9 @@ public class DadoNombres {
     }
     /**
      * Método que da un nombre y no se que mas xDDDD Eso es un arrayyyyy o.o
+     * @version no se cual ya
      */
-    public static void dameUnNombre(){
+    public static void dameUnNombre(){  
         
         System.out.println("El numero es: ");
         num= (int) (Math.random()*6);
